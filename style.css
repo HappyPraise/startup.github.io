@@ -1,0 +1,52 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+header.startup h1 {
+  font-size: 2rem;
+  position: relative;
+  top: 130px;
+}
+
+.btn {
+  display: flex;
+  position: relative;
+  top: 360px;
+  font-weight:700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding-top: 350px; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  transition: ease-in .2s;
+  background-color: orange;
+  border-color: #ee4b08;
+  border-width: 5px;
+}
+  
